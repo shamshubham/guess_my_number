@@ -1,8 +1,8 @@
-# Guessing Game
+# 🎮 Guessing Game
 
-This project is a simple number guessing game implemented using JavaScript. The objective of the game is to guess a randomly generated number between 1 and 20. The game provides feedback on each guess and updates the score based on the player's performance. The game also keeps track of the highest score achieved.
+Welcome to the **Guessing Game**, a simple yet entertaining web-based game where you challenge your intuition by guessing a secret number between 1 and 20. With each guess, receive feedback to guide your next attempt, keep track of your score, and strive to beat the highest score you've achieved!
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
@@ -13,17 +13,18 @@ This project is a simple number guessing game implemented using JavaScript. The 
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Screenshots](#screenshots)
 
-## Introduction
+## 🌟 Introduction
 
-Guessing Game is an interactive web-based game where players try to guess a secret number between 1 and 20. The game provides feedback on whether the guess is too high, too low, or correct. Players can see their current score and the highest score achieved. The game can be reset to start a new round.
+The **Guessing Game** is an interactive game where players try to guess a randomly generated number between 1 and 20. The game provides instant feedback on whether the guess is too high, too low, or spot on. Track your score, compete against your best, and reset the game for endless fun!
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - A modern web browser (e.g., Chrome, Firefox, Safari)
-- Basic understanding of HTML, CSS, and JavaScript
+- Basic knowledge of HTML, CSS, and JavaScript
 
 ### Installation
 
@@ -36,50 +37,57 @@ Guessing Game is an interactive web-based game where players try to guess a secr
 
 2. **Open the Project**:
 
-   Open the `index.html` file in your web browser to view and interact with the game.
+   Open the `index.html` file in your web browser to start playing the game.
 
-## Usage
+## 🕹️ Usage
 
 1. **Playing the Game**:
 
-   - Enter a guess in the input field and click the "Check" button to see if the guess is correct.
-   - If the guess is correct, the game displays the secret number, updates the score, and changes the background color.
-   - If the guess is incorrect, the game provides feedback (too high or too low) and decreases the score.
-   - If the score reaches zero, the game indicates that the player has lost.
+   - **Make a Guess**: Enter a number between 1 and 20 in the input field and click the "Check" button.
+   - **Feedback**: The game will tell you if your guess is too high, too low, or correct.
+   - **Score Tracking**: The score decreases with each wrong guess. If you guess correctly, the score is retained, and the background changes to celebrate your win.
+   - **Game Over**: If your score reaches zero, the game will indicate that you have lost.
 
 2. **Starting a New Game**:
 
-   - Click the "Again" button to reset the game. The secret number, score, and game messages will be reset.
+   - Click the "Again" button to reset the game. This will generate a new secret number, reset the score and messages, and give you a fresh start.
 
-## Code Overview
+## 🧩 Code Overview
 
 ### 1. Initial Setup
 
-The game starts by generating a random secret number and setting the initial score to 20. The `displayMessage()` function is used to update messages on the screen.
+The game initializes with a random secret number and a score set to 20. The `displayMessage()` function is used to update the game's feedback messages.
 
 ### 2. Checking the Guess
 
-The `check` button event listener handles the logic for evaluating the player's guess. It updates the game state based on whether the guess is correct, too high, or too low. If the score reaches zero, it indicates that the player has lost the game.
+An event listener on the "Check" button processes the player's guess, adjusts the score, and updates the game state based on whether the guess is correct, too high, or too low.
 
 ### 3. Restarting the Game
 
-The `again` button event listener resets the game state, including the score, secret number, and visual elements, allowing the player to start a new game.
+The "Again" button resets the game state, including the score and secret number, and updates the visual elements, allowing for a new round.
 
-## Technologies Used
+## 💻 Technologies Used
 
-- **HTML**: Structure of the game interface.
-- **CSS**: Styling and layout of the game.
-- **JavaScript**: Game logic and interactivity.
+- **HTML**: Constructs the game's structure.
+- **CSS**: Styles the game's appearance and layout.
+- **JavaScript**: Powers the game's logic and interactivity.
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request. For significant changes, please open an issue to discuss your ideas.
+We welcome contributions! If you'd like to enhance this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss your ideas first.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- Thanks to the developers who provided inspiration and examples for implementing game logic and user interface interactions.
-- Special thanks to the creators of various JavaScript libraries and resources used in building this game.
+- A big thanks to the developers whose resources and examples inspired this game.
+- Special appreciation to the creators of the JavaScript libraries and tools that made this project possible.
+
+## 📸 Screenshots
+
+- ![Screenshot 1](https://github.com/shamshubham/guess_my_number/blob/master/screenShots/Capture.JPG)
+- ![Screenshot 2](https://github.com/shamshubham/guess_my_number/blob/master/screenShots/Capture1.JPG)
+- ![Screenshot 3](https://github.com/shamshubham/guess_my_number/blob/master/screenShots/Capture2.JPG)
+- ![Screenshot 4](https://github.com/shamshubham/guess_my_number/blob/master/screenShots/Capture3.JPG)
